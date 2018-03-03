@@ -1,0 +1,176 @@
+#background {
+    background-image: url(../images/dust_scratches.png);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-bottom-color: #cccccc;
+}
+
+.name {
+    margin-right: auto;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.nav {
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav:hover {
+    background-color: #999999;
+    color: white;
+    font-weight: bold;
+}
+
+.nav > a {
+    text-decoration: none;
+    color: #555555;
+}
+
+.top-divide {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-body {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about {
+    background-color: white;
+    margin: 20px 20px 20px 0;
+    padding: 10px 30px 30px 30px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #777777;
+}
+
+a {
+    color: #777777;
+    text-decoration-color: #777777;
+    font-weight: bold;
+}
+
+.about > img {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.about > h1 {
+    color: #4aaaa5;
+}
+
+.about-break {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.social {
+    width: 270;
+    text-align: center;
+    height: 150px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 20px 0px 20px;
+}
+
+.social > h3 {
+    color: #4aaaa5;
+}
+
+.social-icons {
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0 10px 0 10px;
+}
+
+.social-break {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.bottom-divide {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid #4aaaa5;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    height: 60px;
+    margin-top: 0px;
+    padding-top: 30px;
+    color: white;
+
+}
+
+.portfolio-images {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.portfolio-images > li {
+    padding: 10px 20px 10px 0px;
+}
+
+.absolute {
+    position: relative;
+}
+
+.portfolio-image-title {
+    position: absolute;
+    height: 30px;
+    width: 300px;
+    bottom: 50px;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.contact-message {
+    width: 100%;
+    flex-grow: 1;
+    height: 200px;
+}
