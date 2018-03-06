@@ -174,3 +174,20 @@ footer {
     flex-grow: 1;
     height: 200px;
 }
+
+@media (max-width:1024px) {
+    .main-body{
+        display: block;
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .social {
+        width: 270px;
+        margin: 0 auto 20px auto;
+    }
+
+    .header {
+        width: auto;
+    }
+}
